@@ -2,8 +2,8 @@
 import React from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, Shield, Info, Mail, FileText } from 'lucide-react';
-import { useStore } from '../store';
-import { translations } from '../translations';
+import { useStore } from './store';
+import { translations } from './translations';
 
 export const LegalModal: React.FC = () => {
   const { activeLegalPage, setLegalPage, language } = useStore();
