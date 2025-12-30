@@ -1,6 +1,6 @@
 
 import axios from 'axios';
-import { Movie, WizardState } from '../types';
+import { Movie, WizardState } from './types';
 
 // In production, you should set this in your deployment environment variables
 const TMDB_API_KEY = 'f817ccc50d414f360a57682aeb929931'; 
