@@ -1,8 +1,8 @@
 import React from 'react';
 import { Film, RefreshCw, Languages } from 'lucide-react';
-import { useStore } from '../store';
-import { AppView } from '../types';
-import { translations } from '../translations';
+import { useStore } from './store';
+import { AppView } from './types';
+import { translations } from './translations';
 
 export const Header: React.FC = () => {
   const { resetApp, view, language, setLanguage } = useStore();
