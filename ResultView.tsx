@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import { Play, Sparkles, X, Star, ExternalLink, ArrowLeft, Layers, Hash } from 'lucide-react';
-import { useStore } from '../store';
-import { getImageUrl, fetchTrailer, fetchCredits, fetchMovieDetails } from '../services/tmdbService';
-import { generateRecommendationReason } from '../services/geminiService';
+import { useStore } from './store';
+import { getImageUrl, fetchTrailer, fetchCredits, fetchMovieDetails } from './services/tmdbService';
+import { generateRecommendationReason } from './services/geminiService';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Movie } from '../types';
+import { Movie } from './types';
 import { translations } from '../translations';
 
 export const ResultView: React.FC = () => {
