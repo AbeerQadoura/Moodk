@@ -1,10 +1,10 @@
 
 import React, { useEffect, useState } from 'react';
-import { fetchTrending, getImageUrl } from '../services/tmdbService';
-import { Movie } from '../types';
+import { fetchTrending, getImageUrl } from './tmdbService';
+import { Movie } from './types';
 import { Flame, Star } from 'lucide-react';
-import { useStore } from '../store';
-import { translations } from '../translations';
+import { useStore } from './store';
+import { translations } from './translations';
 import { motion } from 'framer-motion';
 
 export const DailyCapsule: React.FC = () => {
