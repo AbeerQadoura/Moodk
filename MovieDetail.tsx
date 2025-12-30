@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react';
-import { useStore } from '../store';
-import { getImageUrl, fetchMovieDetails, fetchTrailer } from '../services/tmdbService';
-import { generateRecommendationReason } from '../services/geminiService';
+import { useStore } from './store';
+import { getImageUrl, fetchMovieDetails, fetchTrailer } from './tmdbService';
+import { generateRecommendationReason } from './geminiService';
 import { X, Play, ArrowUpRight, Sparkles, Layers, Star } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Movie } from '../types';
-import { translations } from '../translations';
+import { Movie } from './types';
+import { translations } from './translations';
 
 export const MovieDetail: React.FC = () => {
   const { selectedMovie, selectMovie, filters, language } = useStore();
