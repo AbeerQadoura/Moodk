@@ -1,5 +1,5 @@
 import React from 'react';
-import { useStore } from '../store';
+import { useStore } from './store';
 import { MovieCard } from './MovieCard';
 import { LoadingSequence } from './LoadingSequence';
 
