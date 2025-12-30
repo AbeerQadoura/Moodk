@@ -1,7 +1,7 @@
 
 import React from 'react';
-import { useStore } from '../store';
-import { translations } from '../translations';
+import { useStore } from './store';
+import { translations } from './translations';
 import { Shield, Info, Mail, Cpu, FileText } from 'lucide-react';
 
 export const Footer: React.FC = () => {
