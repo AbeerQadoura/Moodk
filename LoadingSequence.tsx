@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { useStore } from '../store';
-import { translations } from '../translations';
+import { useStore } from './store';
+import { translations } from './translations';
 import { Sparkles } from 'lucide-react';
 
 export const LoadingSequence: React.FC<{ fullScreen?: boolean }> = ({ fullScreen = false }) => {
