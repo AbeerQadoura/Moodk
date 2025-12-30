@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Clock, Film, Monitor, Compass } from 'lucide-react';
 import { useStore } from './store';
 import { MoodOption, RegionOption, TimeOption, AppView } from './types';
-import { fetchRecommendations } from './services/tmdbService';
+import { fetchRecommendations } from './tmdbService';
 import { translations } from './translations';
 import { LoadingSequence } from './LoadingSequence';
 
