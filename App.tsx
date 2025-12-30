@@ -1,16 +1,16 @@
 
 import React, { useEffect } from 'react';
-import { Header } from './components/Header';
-import { Wizard } from './components/Wizard';
-import { Swiper } from './components/Swiper';
-import { ResultView } from './components/ResultView';
-import { DailyCapsule } from './components/DailyCapsule';
-import { MovieDetail } from './components/MovieDetail';
-import { Footer } from './components/Footer';
-import { LegalModal } from './components/LegalModal';
-import { CookieConsent } from './components/CookieConsent';
-import { KnowledgeHub } from './components/KnowledgeHub';
-import { AdSlot } from './components/AdSlot';
+import { Header } from './Header';
+import { Wizard } from './Wizard';
+import { Swiper } from './Swiper';
+import { ResultView } from './ResultView';
+import { DailyCapsule } from './DailyCapsule';
+import { MovieDetail } from './MovieDetail';
+import { Footer } from './Footer';
+import { LegalModal } from './LegalModal';
+import { CookieConsent } from './CookieConsent';
+import { KnowledgeHub } from './KnowledgeHub';
+import { AdSlot } from './AdSlot';
 import { useStore } from './store';
 import { AppView } from './types';
 
