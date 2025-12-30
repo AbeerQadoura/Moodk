@@ -1,5 +1,5 @@
 import { GoogleGenAI } from "@google/genai";
-import { Movie, WizardState } from "../types";
+import { Movie, WizardState } from "./types";
 
 const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
 
