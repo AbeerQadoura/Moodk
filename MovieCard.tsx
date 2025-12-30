@@ -2,10 +2,10 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Star, Play, X, Plus, Check } from 'lucide-react';
-import { Movie } from '../types';
-import { getImageUrl, fetchTrailer } from '../services/tmdbService';
-import { useStore } from '../store';
-import { translations } from '../translations';
+import { Movie } from './types';
+import { getImageUrl, fetchTrailer } from './tmdbService';
+import { useStore } from './store';
+import { translations } from './translations';
 
 interface MovieCardProps {
   movie: Movie;
