@@ -2,8 +2,8 @@
 import React from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { BookOpen, Sparkles, Brain, Globe, ShieldCheck, ArrowRight, X, Quote, Maximize2 } from 'lucide-react';
-import { useStore, Article } from '../store';
-import { translations } from '../translations';
+import { useStore, Article } from './store';
+import { translations } from './translations';
 import { AdSlot } from './AdSlot';
 
 export const KnowledgeHub: React.FC = () => {
