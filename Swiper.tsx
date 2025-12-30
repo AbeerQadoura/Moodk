@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { motion, useMotionValue, useTransform, PanInfo, AnimatePresence } from 'framer-motion';
 import { X, Heart, Star, Tv, Film, Info } from 'lucide-react';
 import { useStore } from './store';
-import { getImageUrl } from './services/tmdbService';
+import { getImageUrl } from './tmdbService';
 import { translations } from './translations';
 
 export const Swiper: React.FC = () => {
