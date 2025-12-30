@@ -1,8 +1,8 @@
 
 import React from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { useStore } from '../store';
-import { translations } from '../translations';
+import { useStore } from './store';
+import { translations } from './translations';
 import { ShieldCheck } from 'lucide-react';
 
 export const CookieConsent: React.FC = () => {
