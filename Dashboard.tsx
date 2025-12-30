@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
-import { useStore } from '../store';
-import { fetchRecommendations } from '../services/tmdbService';
+import { useStore } from './store';
+import { fetchRecommendations } from './tmdbService';
 import { FilterBar } from './FilterBar';
 import { MovieGrid } from './MovieGrid';
 import { MovieDetail } from './MovieDetail';
