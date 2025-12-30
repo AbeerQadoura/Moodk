@@ -5,7 +5,7 @@ import { getImageUrl, fetchTrailer, fetchCredits, fetchMovieDetails } from './tm
 import { generateRecommendationReason } from './geminiService';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Movie } from './types';
-import { translations } from '../translations';
+import { translations } from './translations';
 
 export const ResultView: React.FC = () => {
   const { currentMatch, wizardState, matchReason, setMatchReason, resetApp, language } = useStore();
