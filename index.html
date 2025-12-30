@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="https://vitejs.dev/logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Moodk | AI Cinematic Recommendation Engine</title>
+    
+    <!-- Google AdSense - Replace with your REAL Client ID after approval -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-0000000000000000" crossorigin="anonymous"></script>
+
+    <!-- Advanced SEO -->
+    <meta name="description" content="Discover what to watch based on your mood. Moodk uses AI to find the perfect movie or series match from Hollywood, Arabic, Anime, and World cinema." />
+    <meta name="theme-color" content="#050505" />
+    <link rel="canonical" href="https://moodk.ai/" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                950: '#050505', 
+                900: '#0A0A0B',
+                800: '#121214',
+                500: '#E50914',
+                400: '#FF1F2C',
+                300: '#FF8088',
+              }
+            },
+            fontFamily: {
+              sans: ['Inter', 'system-ui', 'sans-serif'],
+            },
+            boxShadow: {
+              'glow': '0 0 30px -5px rgba(229, 9, 20, 0.3)',
+              'obsidian': '0 20px 40px -10px rgba(0,0,0,0.8)',
+            },
+            backgroundImage: {
+              'noise': "url('data:image/svg+xml,%3Csvg viewBox=%220 0 200 200%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cfilter id=%22noiseFilter%22%3E%3CfeTurbulence type=%22fractalNoise%22 baseFrequency=%220.65%22 numOctaves=%223%22 stitchTiles=%22stitch%22/%3E%3C/filter%3E%3Crect width=%22100%25%22 height=%22100%25%22 filter=%22url(%23noiseFilter)%22 opacity=%220.05%22/%3E%3C/svg%3E')",
+            }
+          },
+        },
+      }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <style>
+      body { background-color: #050505; color: #ffffff; font-family: 'Inter', sans-serif; overflow-x: hidden; }
+      .obsidian-card { background: linear-gradient(180deg, rgba(20, 20, 22, 0.6) 0%, rgba(10, 10, 12, 0.8) 100%); backdrop-filter: blur(20px); border: 1px solid rgba(255, 255, 255, 0.08); }
+      ::-webkit-scrollbar { width: 0px; background: transparent; }
+      .scrollbar-hide::-webkit-scrollbar { display: none; }
+      @keyframes aurora {
+        0% { transform: translate(0,0) rotate(0deg); }
+        50% { transform: translate(10%, 10%) rotate(180deg); }
+        100% { transform: translate(0,0) rotate(360deg); }
+      }
+      .animate-aurora { animation: aurora 20s infinite linear; }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "lucide-react": "https://esm.sh/lucide-react@^0.562.0",
+    "@google/genai": "https://esm.sh/@google/genai@^1.34.0",
+    "zustand": "https://esm.sh/zustand@^5.0.9",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "framer-motion": "https://esm.sh/framer-motion@^12.23.26",
+    "axios": "https://esm.sh/axios@^1.13.2"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>

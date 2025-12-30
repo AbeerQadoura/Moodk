@@ -1,0 +1,5 @@
+{
+  "name": "Moodk",
+  "description": "A mood-based movie and series recommendation engine that helps you decide what to watch using an interactive wizard and AI-powered insights.",
+  "requestFramePermissions": []
+}

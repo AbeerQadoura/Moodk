@@ -1,0 +1,4 @@
+
+# Moodk AdSense Authorization File
+# Replace 'pub-0000000000000000' with your actual AdSense Publisher ID after approval
+google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0

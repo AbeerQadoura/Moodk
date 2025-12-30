@@ -1,0 +1,10 @@
+
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://moodk.ai/sitemap.xml
+
+# AdSense Crawler
+User-agent: Mediapartners-Google
+Allow: /

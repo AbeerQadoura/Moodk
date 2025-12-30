@@ -1,0 +1,187 @@
+
+export const translations = {
+  en: {
+    appName: "Moodk",
+    tagline: "AI CINEMATIC ENGINE",
+    startOver: "Start Over",
+    searchStatus: "SEARCHING CINEMATIC DATABASE",
+    loadingMessages: [
+      "Calibrating emotional resonance...",
+      "Scanning global archives...",
+      "Analyzing plot structures...",
+      "Fine-tuning character depth...",
+      "Matching your unique vibe...",
+      "Filtering 50,000+ titles...",
+      "Generating cinematic insights..."
+    ],
+    matchScore: "Match score",
+    synopsis: "Synopsis",
+    cast: "Cast",
+    watchTrailer: "Watch Trailer",
+    details: "View Details",
+    trendingNow: "Trending Now",
+    noMoreResults: "No More Results",
+    noMoreDesc: "The algorithm has exhausted all possibilities for this specific mood.",
+    newSearch: "Start New Curation Sequence",
+    insights: "AI INSIGHTS",
+    matchingDNA: "Decoding cinematic DNA...",
+    format: "Choose Format",
+    mood: "Choose Vibes",
+    origin: "Cultural Origin",
+    time: "Time Budget",
+    cinema: "Cinema",
+    cinemaDesc: "Feature-length narratives",
+    series: "Series",
+    seriesDesc: "TV shows and mini-series",
+    seasons: "Seasons",
+    episodes: "Episodes",
+    backToSearch: "Back to Search",
+    waitMatch: "Processing match data...",
+    matches: {
+      fun: "Fun & Light",
+      intense: "Intense & Thrilling",
+      emotional: "Deep & Emotional",
+      epic: "Epic & Sci-Fi",
+      mystery: "Mystery & Crime",
+      any: "Anything Great"
+    },
+    regions: {
+      hollywood: "Hollywood",
+      arab: "Arab World",
+      anime: "Anime",
+      turkish: "Turkish",
+      korean: "Korean",
+      bollywood: "Bollywood"
+    },
+    times: {
+      short: "Short Film",
+      feature: "Feature Film",
+      quick: "Quick Binge",
+      prestige: "Epic Journey"
+    },
+    footer: {
+      rights: "All Rights Reserved",
+      privacy: "Privacy Policy",
+      about: "About Us",
+      contact: "Contact",
+      terms: "Terms of Service",
+      madeBy: "Built with AI for Cinema Lovers",
+      tmdbNotice: "This product uses the TMDB API but is not endorsed or certified by TMDB."
+    },
+    articles: {
+      title: "Cinematic Knowledge Hub",
+      art1Title: "How AI is Revolutionizing Film Discovery",
+      art1Content: "In the era of streaming fatigue, Moodk uses advanced machine learning and large language models (LLMs) like Gemini Pro to understand the nuances of storytelling. Our AI doesn't just look at categories; it analyzes emotional beats, pacing, and thematic depth to ensure your viewing experience matches your psychological state. This technology marks the end of 'endless scrolling' and the beginning of intentional, emotional viewing. By processing metadata from thousands of global titles, Moodk identifies patterns that traditional search engines miss, providing a truly personalized cinematic journey.",
+      art2Title: "The Psychology of Mood-Based Watching",
+      art2Content: "Psychological studies suggest that our choice of entertainment is a form of emotional regulation. When we are stressed, we seek 'comfort films' (often categorized under our 'Fun' or 'Light' filters). When we seek growth, we turn to 'Intense' or 'Deep' narratives. Moodk's algorithm is built on these psychological foundations, helping you find the right emotional frequency for your current moment. Understanding the cognitive load of different genres allows us to suggest content that either challenges the mind or provides much-needed relaxation after a long day.",
+      art3Title: "Global Cinema: Beyond the Blockbuster",
+      art3Content: "The world of cinema is vast, yet many viewers are trapped in the Hollywood bubble. Moodk actively promotes cultural diversity by featuring high-quality Turkish dramas, Korean prestige series (K-Dramas), and the vibrant storytelling of the Arab world. By breaking language barriers through AI-powered insights, we open doors to masterpieces that were previously undiscovered by global audiences. We believe that stories from different cultures offer unique perspectives that enrich the human experience and foster global understanding through the universal language of film."
+    },
+    legal: {
+      aboutTitle: "About Moodk Cinematic Engine",
+      aboutContent: "Moodk is a state-of-the-art AI-powered cinematic recommendation engine designed to bridge the gap between human emotion and digital content. Our platform solves the modern dilemma of 'Choice Paralysis' in streaming services. By utilizing the Google Gemini 3.0 Pro large language model, we analyze over 750,000 movies and TV shows from the TMDB database to provide you with the perfect match. Our core mission is to promote high-quality storytelling and cultural diversity in cinema. We provide a clean, ad-supported free service that respects user privacy while delivering world-class technological insights into the world of film and series.",
+      privacyTitle: "Privacy & Global Cookie Policy",
+      privacyContent: "Moodk is committed to transparency. We do not collect personal identifiers like names, emails, or phone numbers unless you explicitly provide them for support. We use standard industry cookies to understand user behavior and optimize our AI matching engine. We use Google AdSense as our primary advertising partner. Google uses cookies to serve ads based on your prior visits to this and other websites. Moodk uses the TMDB API for metadata and images but is not an official partner of TMDB. All movie data is used for informational purposes only. We do not store or host any copyrighted video files on our servers.",
+      contactTitle: "Contact Our Cinematic Team",
+      contactContent: "We value user feedback and corporate inquiries. For technical support, DMCA notices, or advertising opportunities, please reach out via our official support channel. Our team consists of dedicated film critics, AI engineers, and UI designers working together to redefine how you discover art. We typically respond to all inquiries within 48 business hours. Please ensure your query is specific to help us serve you better.",
+      termsTitle: "Comprehensive Terms of Service",
+      termsContent: "1. Acceptable Use: Moodk is for personal, non-commercial use only. 2. Intellectual Property: The UI/UX, AI prompts, and Moodk branding are proprietary. Movie metadata is provided by TMDB. 3. No Hosting: We do not host, upload, or stream any movie files. We only provide metadata and links to official trailers. 4. Disclaimer: Recommendations are generated by AI and are subjective. We are not responsible for content on external streaming platforms. 5. Updates: We reserve the right to modify our matching algorithms and terms at any time to improve service quality.",
+      emailLabel: "Official Support Email",
+      emailValue: "legal@moodk.ai",
+      cookieText: "Moodk uses cookies to personalize content and ads, to provide social media features and to analyze our traffic. We share information about your use of our site with our advertising and analytics partners like Google AdSense.",
+      accept: "Consent & Continue"
+    }
+  },
+  ar: {
+    appName: "مودك",
+    tagline: "ذكاء اصطناعي سينمائي",
+    startOver: "البدء من جديد",
+    searchStatus: "جاري البحث في القاعدة السينمائية",
+    loadingMessages: [
+      "معايرة الرنين العاطفي...",
+      "مسح الأرشيف العالمي...",
+      "تحليل هيكل القصة...",
+      "ضبط عمق الشخصيات...",
+      "مطابقة ذوقك الخاص...",
+      "تصفية أكثر من 50,000 عمل...",
+      "توليد رؤى سينمائية..."
+    ],
+    matchScore: "نسبة التطابق",
+    synopsis: "القصة",
+    cast: "طاقم العمل",
+    watchTrailer: "مشاهدة الإعلان",
+    details: "عرض التفاصيل",
+    trendingNow: "الشائع الآن",
+    noMoreResults: "لا توجد المزيد من النتائج",
+    noMoreDesc: "لقد استنفذت الخوارزمية جميع الاحتمالات لهذا المزاج المحدد.",
+    newSearch: "بدء تسلسل بحث جديد",
+    insights: "تحليل التطابق الذكي",
+    matchingDNA: "جاري فك شفرة الـ DNA السينمائي...",
+    format: "اختر التنسيق",
+    mood: "اختر الأجواء",
+    origin: "الأصل الثقافي",
+    time: "ميزانية الوقت",
+    cinema: "سينما",
+    cinemaDesc: "أفلام روائية وطويلة",
+    series: "مسلسلات",
+    seriesDesc: "برامج تلفزيونية ومسلسلات قصيرة",
+    seasons: "مواسم",
+    episodes: "حلقة",
+    backToSearch: "العودة للبحث",
+    waitMatch: "جاري معالجة بيانات التطابق...",
+    matches: {
+      fun: "مرح وخفيف",
+      intense: "إثارة وتشويق",
+      emotional: "عميق وواقعي",
+      epic: "ملحمي وخيال علمي",
+      mystery: "غموض وتحقيق",
+      any: "أي شيء رائع"
+    },
+    regions: {
+      hollywood: "هوليوود",
+      arab: "العالم العربي",
+      anime: "أنمي",
+      turkish: "تركي",
+      korean: "كوري",
+      bollywood: "بوليوود"
+    },
+    times: {
+      short: "فيلم قصير",
+      feature: "فيلم طويل",
+      quick: "مشاهدة سريعة",
+      prestige: "رحلة ملحمية"
+    },
+    footer: {
+      rights: "جميع الحقوق محفوظة",
+      privacy: "سياسة الخصوصية",
+      about: "من نحن",
+      contact: "اتصل بنا",
+      terms: "شروط الاستخدام",
+      madeBy: "صنع بالذكاء الاصطناعي لعشاق السينما",
+      tmdbNotice: "هذا المنتج يستخدم واجهة برمجة تطبيقات TMDB ولكنه غير معتمد أو معتمد من قبل TMDB."
+    },
+    articles: {
+      title: "مركز المعرفة السينمائي",
+      art1Title: "كيف يغير الذكاء الاصطناعي طريقة اكتشافنا للأفلام",
+      art1Content: "في عصر التشتت الرقمي، يستخدم 'مودك' تقنيات التعلم الآلي المتقدمة ونماذج اللغة الكبيرة مثل Gemini Pro لفهم تفاصيل القصص السينمائية. لا يكتفي ذكاؤنا الاصطناعي بالنظر إلى التصنيفات التقليدية، بل يحلل الإيقاع الدرامي، والعمق الموضوعي لضمان تطابق تجربة المشاهدة مع حالتك النفسية. من خلال معالجة البيانات الوصفية لآلاف العناوين العالمية، يحدد مودك الأنماط التي تفتقدها محركات البحث التقليدية، مما يوفر رحلة سينمائية مخصصة حقاً.",
+      art2Title: "سيكولوجية المشاهدة المبنية على الحالة المزاجية",
+      art2Content: "تشير الدراسات النفسية إلى أن اختيارنا للترفيه هو شكل من أشكال التنظيم العاطفي. عندما نكون تحت ضغط، نبحث عن 'أفلام الراحة' (والتي تندرج غالباً تحت فلاتر 'المرح' أو 'الخفة'). وعندما نسعى للنضج الفكري، نتوجه إلى الروايات 'العميقة'. خوارزمية مودك مبنية على هذه الأسس النفسية، مما يساعدك في العثور على التردد العاطفي المناسب للحظتك الحالية. إن فهم العبء المعرفي للأنواع المختلفة يسمح لنا باقتراح محتوى يتحدى العقل أو يوفر الاسترخاء المطلوب بعد يوم طويل.",
+      art3Title: "السينما العالمية: ما وراء أفلام هوليوود",
+      art3Content: "عالم السينما واسع، ومع ذلك يقع الكثير من المشاهدين في فخ هوليوود فقط. 'مودك' يعزز التنوع الثقافي من خلال تسليط الضوء على الدراما التركية عالية الجودة، والمسلسلات الكورية المرموقة، والقصص الحيوية في العالم العربي. من خلال كسر حواجز اللغة عبر الرؤى المدعومة بالذكاء الاصطناعي، نفتح الأبواب لأعمال فنية كانت غير مكتشفة سابقاً للجمهور العالمي. نحن نؤمن بأن القصص من الثقافات المختلفة تقدم منظورات فريدة تثري التجربة الإنسانية وتعزز التفاهم العالمي من خلال لغة السينما العالمية."
+    },
+    legal: {
+      aboutTitle: "حول محرك مودك السينمائي",
+      aboutContent: "مودك هو محرك توصيات سينمائي متطور يعمل بالذكاء الاصطناعي، تم تصميمه لسد الفجوة بين المشاعر الإنسانية والمحتوى الرقمي. منصتنا تحل معضلة 'شلل الاختيار' الحديثة في خدمات البث. باستخدام نموذج Google Gemini 3.0 Pro، نقوم بتحليل أكثر من 750,000 فيلم وبرنامج تلفزيوني من قاعدة بيانات TMDB لنقدم لك المطابقة المثالية. مهمتنا الأساسية هي تعزيز القصص عالية الجودة والتنوع الثقافي في السينما. نحن نقدم خدمة مجانية نظيفة مدعومة بالإعلانات تحترم خصوصية المستخدم مع تقديم رؤى تكنولوجية عالمية في عالم الأفلام والمسلسلات.",
+      privacyTitle: "سياسة الخصوصية وملفات تعريف الارتباط العالمية",
+      privacyContent: "يلتزم مودك بالشفافية التامة. نحن لا نجمع معرفات شخصية مثل الأسماء أو رسائل البريد الإلكتروني ما لم تقدمها صراحةً للدعم. نستخدم ملفات تعريف الارتباط القياسية لفهم سلوك المستخدم وتحسين محرك المطابقة الخاص بنا. نستخدم Google AdSense كشريك إعلاني أساسي، والذي يستخدم ملفات تعريف الارتباط لتقديم إعلانات بناءً على زياراتك السابقة لهذا الموقع وغيره. يستخدم مودك واجهة برمجة تطبيقات TMDB للبيانات والصور ولكنه ليس شريكاً رسمياً لـ TMDB. يتم استخدام جميع بيانات الأفلام لأغراض إعلامية فقط. نحن لا نستضيف أو نخزن أي ملفات فيديو محمية بحقوق الطبع والنشر على خوادمنا.",
+      contactTitle: "تواصل مع فريقنا السينمائي",
+      contactContent: "نحن نقدر ملاحظات المستخدمين والاستفسارات الرسمية. للدعم الفني، أو إشعارات حقوق الطبع والنشر، أو الفرص الإعلانية، يرجى التواصل عبر قناة الدعم الرسمية لدينا. يتكون فريقنا من نقاد سينمائيين متخصصين، ومهندسي ذكاء اصطناعي، ومصممي واجهات يعملون معاً لإعادة تعريف كيفية اكتشافك للفن. عادةً ما نرد على جميع الاستفسارات في غضون 48 ساعة عمل. يرجى التأكد من أن استفسارك محدد لمساعدتنا في خدمتك بشكل أفضل.",
+      termsTitle: "شروط الخدمة الشاملة",
+      termsContent: "1. الاستخدام المقبول: مودك للاستخدام الشخصي وغير التجاري فقط. 2. الملكية الفكرية: واجهة المستخدم، وتوجيهات الذكاء الاصطناعي، وعلامة مودك هي ملكية خاصة. يتم توفير بيانات الأفلام من قبل TMDB. 3. عدم الاستضافة: نحن لا نستضيف أو نرفع أو نبث أي ملفات أفلام. نحن نقدم فقط البيانات الوصفية وروابط الإعلانات الرسمية (Trailers). 4. إخلاء المسؤولية: التوصيات يتم إنشاؤها بواسطة الذكاء الاصطناعي وهي ذاتية. نحن لسنا مسؤولين عن المحتوى على منصات البث الخارجية. 5. التحديثات: نحتفظ بالحق في تعديل خوارزميات المطابقة والشروط في أي وقت لتحسين جودة الخدمة.",
+      emailLabel: "البريد الرسمي للدعم",
+      emailValue: "legal@moodk.ai",
+      cookieText: "يستخدم مودك ملفات تعريف الارتباط لتخصيص المحتوى والإعلانات، وتقديم ميزات الوسائط الاجتماعية وتحليل حركة المرور لدينا عبر شركاء مثل Google AdSense.",
+      accept: "الموافقة والمتابعة"
+    }
+  }
+};
