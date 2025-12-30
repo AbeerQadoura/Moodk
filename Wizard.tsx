@@ -2,10 +2,10 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Clock, Film, Monitor, Compass } from 'lucide-react';
-import { useStore } from '../store';
-import { MoodOption, RegionOption, TimeOption, AppView } from '../types';
-import { fetchRecommendations } from '../services/tmdbService';
-import { translations } from '../translations';
+import { useStore } from './store';
+import { MoodOption, RegionOption, TimeOption, AppView } from './types';
+import { fetchRecommendations } from './services/tmdbService';
+import { translations } from './translations';
 import { LoadingSequence } from './LoadingSequence';
 
 export const Wizard: React.FC = () => {
