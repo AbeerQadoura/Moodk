@@ -1,5 +1,5 @@
 import React from 'react';
-import { useStore } from '../store';
+import { useStore } from './store';
 import { Activity, Globe, Monitor, Film, X } from 'lucide-react';
 
 const MOODS = [
